@@ -12,7 +12,7 @@ public class App01 {
             List<String> stringInfo = new ArrayList<>();
             while (new Scanner(yourFile).hasNextLine()) {
                 stringInfo.add(new Scanner(yourFile).nextLine());
-            }
+            } 
             return stringInfo.stream()
                     .flatMap(t -> Arrays.stream(t.split(" ")))
                     .filter(t -> !t.matches(regularExpressions))
