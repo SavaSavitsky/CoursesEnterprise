@@ -10,7 +10,7 @@ public class App03 {
 
     public synchronized void firstWay() {
         this.value++;
-    }
+    } 
 
     private final Object close = new Object();
 
