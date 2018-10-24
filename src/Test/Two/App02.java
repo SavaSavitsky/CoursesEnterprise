@@ -15,3 +15,4 @@ public class App02<T> {
         return coll;
     }
 }
+ 
